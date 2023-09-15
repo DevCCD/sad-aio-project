@@ -1,0 +1,9 @@
+.control {
+	@apply rounded bg-white p-3.5 sticky top-[74px] shadow border border-gray-200 grid gap-4;
+	@media screen and (width > 890px) {
+		grid-template-columns: 1fr 1fr;
+	}
+	@media (width > 1200px) {
+		grid-template-columns: 1fr;
+	}
+}

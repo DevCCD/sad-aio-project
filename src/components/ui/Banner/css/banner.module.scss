@@ -1,0 +1,8 @@
+.crumb {
+	@apply hover:bg-slate-200 rounded-md px-2 py-1 hover:text-gray-500 cursor-pointer;
+	// no wrap text
+	white-space: nowrap;
+	&[data-last="true"] {
+		@apply text-gray-700 font-bold;
+	}
+}

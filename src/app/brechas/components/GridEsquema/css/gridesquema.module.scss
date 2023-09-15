@@ -1,0 +1,9 @@
+.gridesquema {
+	@apply grid-cols-[auto_1fr];
+}
+
+.pilares_grid {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	gap: 12px;
+}

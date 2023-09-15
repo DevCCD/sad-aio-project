@@ -1,0 +1,30 @@
+.footer {
+	padding: 3rem 0 2rem 0;
+	background: var(--primaryColor);
+	color: white;
+	transition: background 0.2s ease;
+	// &[data-is-home="false"] {
+	// 	background-color: #fff;
+	// }
+
+	.content {
+		@apply grid gap-5;
+		justify-content: center;
+		width: 100%;
+		// @media (min-width: 800px) {
+		// 	grid-template-columns: 4fr 6fr;
+		// }
+	}
+}
+
+.contactItem {
+	@apply flex items-center text-sm gap-1 truncate;
+	&:hover {
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+	border-radius: 2rem;
+	padding-right: 0.5rem;
+	.icon {
+		@apply w-6 h-6 flex justify-center items-center rounded-full pl-1;
+	}
+}

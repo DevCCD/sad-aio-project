@@ -1,0 +1,15 @@
+.bgnav {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: -1;
+	@apply shadow transition-shadow ease-linear;
+	&[data-active="true"] {
+		box-shadow: 24px 24px 40px rgba(3, 44, 148, 0.101),
+			-4px -4px 16px rgba(255, 255, 255, 0.350907),
+			4px 4px 16px rgba(0, 0, 0, 0.0782343);
+	}
+}

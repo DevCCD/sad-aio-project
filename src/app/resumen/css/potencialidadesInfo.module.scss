@@ -1,0 +1,15 @@
+.lista {
+	display: grid;
+	gap: 6px;
+	width: 100%;
+	@media (width > 890px) {
+		grid-template-columns: 1fr 1fr;
+		li:last-child {
+			grid-column: 1 / -1;
+			justify-content: center;
+		}
+	}
+	@media (width > 1200px) {
+		grid-template-columns: 1fr;
+	}
+}

@@ -1,0 +1,14 @@
+.hero {
+	display: grid;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	height: calc(100vh - var(--navbarHeight));
+	min-height: 660px;
+	align-items: center;
+}
+.hero {
+	background: linear-gradient(rgb(185 203 246 / 90%), var(--primaryColor)),
+		url("/assets/images/hero/Ancash.jpg");
+	background-size: cover;
+}
